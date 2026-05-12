@@ -1,0 +1,15 @@
+execute rotated ~ 0.0 positioned ^ ^ ^1 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^2 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^3 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^4 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^5 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^6 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^7 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^8 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^9 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^10 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^11 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^12 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^13 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^14 run function ab:rod/block/dripstone_summon
+execute rotated ~ 0.0 positioned ^ ^ ^15 run function ab:rod/block/dripstone_summon

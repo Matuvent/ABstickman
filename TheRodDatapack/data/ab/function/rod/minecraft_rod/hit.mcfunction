@@ -1,0 +1,1 @@
+#tag @s add ab.minecraft_rod_hited

@@ -1,0 +1,1 @@
+function ab:rod/block/command_block_lc_dialog with entity @s SelectedItem.components."minecraft:custom_data".command

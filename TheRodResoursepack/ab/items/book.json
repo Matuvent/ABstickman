@@ -1,0 +1,12 @@
+{
+    "model": {
+        "type": "special",
+        "base": "ab:rod/air",
+        "model": {
+            "type": "book",
+            "open_angle": 45,
+            "page1": 0.0,
+            "page2": 1.0
+        }
+    }
+}

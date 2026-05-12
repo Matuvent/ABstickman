@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "hurted": {
+            "trigger": "entity_hurt_player",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "ab:rod/hurted"
+    }
+}

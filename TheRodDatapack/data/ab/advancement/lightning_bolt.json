@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "lightning_bolt": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                    "damage": {
+                        "type": {
+                            "tags": [
+                                {
+                                    "id": "is_lightning",
+                                    "expected": true
+                                }
+                            ]
+                        }
+                    }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ab:rod/lightninged"
+    }
+}

@@ -1,0 +1,10 @@
+execute positioned ^ ^ ^ unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^0.5 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^1 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^1.5 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^2 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^2.5 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^3 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^3.5 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^4 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block
+execute positioned ^ ^ ^4.5 unless block ^ ^ ^ #air run return run function ab:rod/block/push_block

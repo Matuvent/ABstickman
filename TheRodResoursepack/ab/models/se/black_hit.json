@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ab:item/se/rod_black",
+		"1": "ab:item/se/ball_white",
+		"particle": "ab:item/se/rod_black"
+	},
+	"elements": [
+		{
+			"from": [7, 6.5, 7],
+			"to": [9, 9.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 7]},
+			"faces": {
+				"north": {"uv": [0, 14, 2, 16], "texture": "#0"},
+				"east": {"uv": [0, 14, 2, 16], "texture": "#0"},
+				"south": {"uv": [0, 14, 2, 16], "texture": "#0"},
+				"west": {"uv": [0, 14, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 14, 2, 16], "texture": "#0"},
+				"down": {"uv": [0, 14, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [9.5, 9.5, 9.5],
+			"to": [6.5, 6.5, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 7]},
+			"faces": {
+				"north": {"uv": [0, 14, 2, 16], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 14, 2, 16], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 14, 2, 16], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 14, 2, 16], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 14, 2, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 14, 2, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	]
+}

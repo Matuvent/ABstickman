@@ -1,0 +1,11 @@
+{
+    "type": "ab:darkness",
+    "generator": {
+        "type": "noise",
+        "biome_source": {
+            "type": "fixed",
+            "biome": "ab:dark_land"
+        },
+        "settings":"ab:darkness"
+    }
+}

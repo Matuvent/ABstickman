@@ -1,0 +1,32 @@
+execute run give @s firework_rocket[item_name={\
+                                    "text": "王冠",\
+                                    "color": "#ffd900"\
+                                },\
+                                attribute_modifiers=[\
+                                    {\
+                                        "type": "knockback_resistance",\
+                                        "id": "crown_knockback_resistance",\
+                                        "amount": 0.5,\
+                                        "operation": "add_value"\
+                                    },\
+                                    {\
+                                        "type": "sweeping_damage_ratio",\
+                                        "id": "crown_sweeping_damage_ratio",\
+                                        "amount": 1,\
+                                        "operation": "add_value"\
+                                    },\
+                                    {\
+                                        "type": "movement_speed",\
+                                        "id": "crown_movement_speed",\
+                                        "amount": 0.01,\
+                                        "operation": "add_value"\
+                                    }\
+                                ],\
+                                item_model="ab:crown",\
+                                custom_data={\
+                                    "type":"crown"\
+                                },\
+                                max_stack_size=1,\
+                                enchantment_glint_override=false,\
+                                equippable={slot:"head"}\
+                                ] 1

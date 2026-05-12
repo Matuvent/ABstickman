@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "rc": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates":{
+                        "custom_data": {
+                            "type": "minecraft"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ab:rod/minecraft/rc"
+    }
+}

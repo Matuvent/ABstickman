@@ -1,0 +1,2 @@
+data modify entity @n[tag=ab.rod_ray] transformation set value [0,0,0,0 ,0,0,0,0 ,0,0,1000,0 ,0,0,0,0.1]
+execute as @e[tag=ab.black_hole] run data modify entity @s transformation set value [1,0,0,0 ,0,1,0,0 ,0,0,1,0 ,0,0,0,0.03]

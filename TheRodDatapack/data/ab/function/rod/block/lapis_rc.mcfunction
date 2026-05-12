@@ -1,0 +1,10 @@
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^
+execute rotated ~180 ~ facing ^ ^ ^-1 as @e[tag=ab.enchant_block,distance=..20] positioned as @s positioned ^ ^ ^0.1 if block ^ ^ ^0.1 #air unless entity @e[tag=ab.enchant_block,distance=0.1..1] run tp ^ ^ ^

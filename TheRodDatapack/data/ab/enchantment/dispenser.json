@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 10000000,
+  "description": {
+    "text": "向其中放入物品以左键发射"
+  },
+  "effects": {
+    "post_piercing_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "ab:dispenser/lc"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "air",
+  "weight": 1
+}

@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^3 run kill @e[distance=..2,tag=ab.rod.magiced]

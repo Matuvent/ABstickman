@@ -1,0 +1,10 @@
+effect give @s[scores={ab.debuff=1}] slowness 5 1
+effect give @s[scores={ab.debuff=2}] mining_fatigue 5 1
+effect give @s[scores={ab.debuff=3}] instant_damage 5 1
+effect give @s[scores={ab.debuff=4}] weakness 5 1
+effect give @s[scores={ab.debuff=5}] poison 5 1
+effect give @s[scores={ab.debuff=6}] wind_charged 5 1
+effect give @s[scores={ab.debuff=7}] weaving 5 1
+effect give @s[scores={ab.debuff=8}] oozing 5 1
+effect give @s[scores={ab.debuff=9}] infested 5 1
+scoreboard players set @s ab.debuff 0
