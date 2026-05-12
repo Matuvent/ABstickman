@@ -1,0 +1,16 @@
+{
+    "id": "rod",
+    "version": "1.0",
+    "name": "权杖",
+    "description": "",
+    "authors": [
+        "Matuvent(xiaofeng)"
+    ],
+    "contact": {},
+    "icon": "pack.png",
+    "license": "All Right Reserved",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

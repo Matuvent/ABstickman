@@ -1,0 +1,457 @@
+{
+  "anvil_cost": 10000000,
+  "description": {
+    "text": "把方块拿在副手，权杖拿在主手，蹲下长按右键装上方块"
+  },
+  "effects": {
+    "post_piercing_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "ab:rod/lc"
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "ignite",
+          "duration": 10
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": {
+                      "block": {
+                        "id": "minecraft:magma_block"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "run_function",
+          "function": "ab:rod/block/netherite_block_hit"
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": {
+                      "block": {
+                        "id": "minecraft:netherite_block"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "run_function",
+          "function": "ab:rod/minecraft_rod/hit"
+        },
+        "enchanted": "attacker",
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": {
+                      "block": {
+                        "components":{
+                          "minecraft:custom_data":{
+                            "type":"minecraft"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "direction": [
+            0,
+            0.2,
+            1.2
+          ],
+          "magnitude": 0.05
+        },
+        "requirements": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:lapis_block"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "flags": {
+                    "is_sneaking": false
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:lapis_block"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "flags": {
+                    "is_sneaking": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "direction": [
+            0,
+            0.3,
+            0
+          ],
+          "magnitude": 0.5
+        },
+        "requirements": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:player_head"
+                          },
+                          "him": true
+                        }
+                      }
+                    }
+                  },
+                  "flags": {
+                    "is_sneaking": false
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:player_head"
+                          },
+                          "him": true
+                        }
+                      }
+                    }
+                  },
+                  "flags": {
+                    "is_sneaking": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "magnitude": 0.1
+        },
+        "requirements": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "custom_data": {
+                      "block": {
+                        "id": "minecraft:campfire"
+                      }
+                    }
+                  }
+                }
+              },
+              "flags": {
+                "is_sneaking": false
+              }
+            }
+          },
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "ab.campfire_fly_time": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "ab:rod/block/sculk_sensor"
+        },
+        "requirements": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:sculk_sensor"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:sculk_sensor"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "expected": true,
+                  "id": "ab:him_immunity"
+                },
+                {
+                  "expected": false,
+                  "id": "minecraft:bypasses_invulnerability"
+                }
+              ]
+            }
+          },
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:player_head"
+                          },
+                          "him": true
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "id": "minecraft:player_head"
+                          },
+                          "him": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": {},
+        "requirements": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "components": {
+                              "minecraft:custom_data": {
+                                "type": "minecraft"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "components": {
+                              "minecraft:custom_data": {
+                                "type": "minecraft"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "stick",
+  "weight": 1
+}

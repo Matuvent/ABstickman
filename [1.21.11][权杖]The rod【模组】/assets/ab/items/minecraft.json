@@ -1,0 +1,70 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "scale": 0.1,
+        "entries": [
+            {
+                "model": {
+                    "type": "minecraft:range_dispatch",
+                    "period": 6.0,
+                    "property": "minecraft:use_cycle",
+                    "scale": 0.1,
+                    "entries": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "ab:minecraft_0"
+                            },
+                            "threshold": 0.5
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "ab:minecraft_1"
+                            },
+                            "threshold": 0.4
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "ab:minecraft_2"
+                            },
+                            "threshold": 0.3
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "ab:minecraft_3"
+                            },
+                            "threshold": 0.2
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "ab:minecraft_4"
+                            },
+                            "threshold": 0.1
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "ab:minecraft_5"
+                            },
+                            "threshold": 0
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "ab:minecraft"
+                    }
+                },
+                "threshold": 0.0001
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "ab:minecraft"
+        }
+    }
+}

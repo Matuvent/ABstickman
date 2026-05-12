@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "切换指令",
+    "inputs":[{
+        "type":"minecraft:text",
+        "key": "command_input",
+        "label": "请输入要增加的指令",
+        "max_length":32767,
+        "multiline":{
+            "max_lines": 100,
+            "height": 200
+        }
+    }],
+    "actions": [
+        {
+            "label": "command1",
+            "action": {
+                "type": "run_command",
+                "command": "say 1"
+            },
+            "width": 200
+        }
+    ]
+}

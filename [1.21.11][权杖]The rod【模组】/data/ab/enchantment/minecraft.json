@@ -1,0 +1,74 @@
+{
+  "anvil_cost": 10000000,
+  "description": {
+    "text": ""
+  },
+  "effects": {
+    "post_piercing_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "ab:rod/minecraft/lc"
+        }
+      }
+    ],
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "type": "minecraft"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "predicates": {
+                        "custom_data": {
+                          "block": {
+                            "type": "minecraft"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "air",
+  "weight": 1
+}

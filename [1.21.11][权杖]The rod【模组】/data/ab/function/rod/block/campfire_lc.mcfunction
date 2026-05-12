@@ -1,0 +1,1 @@
+scoreboard players set @s ab.campfire_time 20

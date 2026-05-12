@@ -1,0 +1,1 @@
+$function ab:rod/block/command_block_rc_run with entity @s SelectedItem.components."minecraft:custom_data".command.commands[$(select)]

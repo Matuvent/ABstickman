@@ -1,0 +1,1 @@
+summon minecraft:item_display ~ ~ ~ {item:{id:firework_rocket,components:{item_model:"ab:black_hit"}},transformation:[1,0,0,0, 0,2,0,0, 0,0,1,0,0,0,0,1]}

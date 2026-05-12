@@ -1,0 +1,10 @@
+modLoader = "lowcodefml"
+loaderVersion = "[25,)"
+license="All Right Reserved"
+[[mods]]
+modId = "resin_gun"
+version = "1.0"
+displayName = "权杖"
+description = ""
+logoFile = "pack.png"
+authors = "Matuvent(xiaofeng)"

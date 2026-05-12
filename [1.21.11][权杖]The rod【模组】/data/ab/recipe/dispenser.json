@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:dispenser"
+    },
+    "pattern": [
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:bundle",
+        "components": {
+            "item_name": {
+                "text": "发射器",
+                "color": "#acacac"
+            },
+            "attribute_modifiers": [
+                {
+                    "type": "attack_speed",
+                    "id": "base_attack_speed",
+                    "amount": -1,
+                    "operation": "add_value"
+                }
+            ],
+            "item_model": "ab:dispenser",
+            "custom_data": {
+                "item": [],
+                "type": "dispenser"
+            },
+            "use_cooldown":{
+                "seconds": 1
+            },
+            "piercing_weapon": {
+                "sound": {
+                    "sound_id": "minecraft:block.dispenser.launch"
+                }
+            },
+            "enchantments": {
+                "ab:dispenser": 1
+            },
+            "swing_animation": {
+                                    "type": "none"
+            },
+            "max_stack_size": 1,
+            "enchantment_glint_override": false,
+            "minimum_attack_charge": 1
+        }
+    }
+}

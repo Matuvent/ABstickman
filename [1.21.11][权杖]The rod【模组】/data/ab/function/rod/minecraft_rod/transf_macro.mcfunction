@@ -1,0 +1,1 @@
+$data modify entity @s transformation set value [0,0,0,$(x),0,100,0,$(y),0,0,0,$(z),0,0,0,1]

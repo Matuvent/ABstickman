@@ -1,0 +1,2 @@
+execute unless entity @e[tag=ab.rod.stave] run function ab:rod/block/note_block_small_note
+execute if entity @e[tag=ab.rod.stave] as @e[tag=ab.rod.stave] at @s run function ab:rod/block/note_block_big_note

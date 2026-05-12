@@ -1,0 +1,9 @@
+execute positioned ^ ^ ^3 run function ab:rod/block/barrier_summon
+execute positioned ^1 ^ ^3 run function ab:rod/block/barrier_summon
+execute positioned ^-1 ^ ^3 run function ab:rod/block/barrier_summon
+execute positioned ^ ^1 ^3 run function ab:rod/block/barrier_summon
+execute positioned ^ ^-1 ^3 run function ab:rod/block/barrier_summon
+execute positioned ^1 ^1 ^3 run function ab:rod/block/barrier_summon
+execute positioned ^1 ^-1 ^3 run function ab:rod/block/barrier_summon
+execute positioned ^-1 ^1 ^3 run function ab:rod/block/barrier_summon
+execute positioned ^-1 ^-1 ^3 run function ab:rod/block/barrier_summon

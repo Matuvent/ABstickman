@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {function:"set_custom_data",tag:{command:{dialog:{actions:$(actions)},commands:$(commands)}}}

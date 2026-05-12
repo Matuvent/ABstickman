@@ -1,0 +1,1 @@
+$data modify entity @n[type=minecraft:item_display] transformation set value [1,0,0,0,0,1,0,0,0,0,$(length),0,0,0,0,1]

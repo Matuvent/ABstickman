@@ -1,0 +1,9 @@
+execute positioned ^ ^ ^1 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^0.5 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^1 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^1.5 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^2 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^2.5 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^3.5 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^4 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of
+execute positioned ^ ^ ^4.5 unless block ^ ^ ^0.5 #air run return run function ab:rod/block/dripstone_lots_of

@@ -1,0 +1,10 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license="All Right Reserved"
+[[mods]]
+modId = "rod"
+version = "1.0"
+displayName = "权杖"
+description = ""
+logoFile = "pack.png"
+authors = "Matuvent"

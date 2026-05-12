@@ -1,0 +1,25 @@
+{
+    "quilt_loader": {
+        "group": "dev.xekr",
+        "id": "rod",
+        "version": "1.0",
+        "metadata": {
+            "name": "权杖",
+            "description": "",
+            "contributors": {
+                "Matuvent(xiaofeng)": ""
+            },
+            "contact": {},
+            "license": "All Right Reserved",
+            "icon": "pack.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            }
+        ]
+    }
+}

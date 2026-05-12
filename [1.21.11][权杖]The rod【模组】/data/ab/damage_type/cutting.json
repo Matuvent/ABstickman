@@ -1,0 +1,6 @@
+{
+    "effects":"hurt",
+    "scaling": "always",
+    "exhaustion": 0,
+    "message_id": "mob"
+}
