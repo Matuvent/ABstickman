@@ -38,7 +38,7 @@ execute run give @s firework_star[item_name={\
                                     "seconds": 1\
                                 },\
                                 piercing_weapon={\
-                                    sound:{sound_id:"minecraft:entity.experience_orb.pickup"}\
+                                    sound:{sound_id:"music.nether.warped_forest"}\
                                 },\
                                 enchantments={\
                                     "ab:minecraft": 1\

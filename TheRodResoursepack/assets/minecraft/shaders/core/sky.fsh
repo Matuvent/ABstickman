@@ -64,7 +64,7 @@ void main() {
         float star = 0.0;
         if (brightness < 0.15 && skyDir.y > 0.03) {
             float cosPhi = skyDir.y;
-            vec2 starCoord = vec2(theta * 100.0, cosPhi * 100.0);
+            vec2 starCoord = vec2(theta * 100.0 + GameTime * 2400.0, cosPhi * 100.0 + GameTime * 4.0);
             vec2 gridPos = floor(starCoord);
             vec2 subCell = starCoord - gridPos;
             float hash = fract(sin(dot(gridPos, vec2(127.1, 311.7))) * 43758.5453);

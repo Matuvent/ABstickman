@@ -1,8 +1,17 @@
 {
     "pack": {
         "description": {"text":"欢迎游玩ab柴同人数据包", "color":"gold"},
-		"min_format": 94,
-        "max_format": 94,
+		"min_format": 88,
+        "max_format": 101,
         "pack_format": 94
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "26_1-",
+                "min_format":[101,0],
+                "max_format":[1000,0]
+            }
+        ]
     }
 }

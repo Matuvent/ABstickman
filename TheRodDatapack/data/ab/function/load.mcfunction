@@ -56,3 +56,6 @@ scoreboard objectives add ab.minecraft_rod_rc_time1 dummy
 
 scoreboard objectives add ab.minecraft_final_rod_rc_time dummy
 scoreboard objectives add ab.minecraft_final_rod_rc_time1 dummy
+scoreboard objectives add ab.break_time dummy
+scoreboard objectives add ab.break_time1 dummy
+scoreboard objectives add ab.break_anwser trigger

@@ -1,4 +1,4 @@
-execute positioned ~ ~-1 ~ as @e[distance=..2.5] positioned ^ ^ ^-1 unless entity @s in ab:darkness run spreadplayers 0.0 0.0 1 100 under 115 false @s
+execute positioned ~ ~-1 ~ as @e[distance=..2.5,type=!#ab:non_mob] positioned ^ ^ ^-1 unless entity @s in ab:darkness run spreadplayers 0.0 0.0 1 100 under 115 false @s
 
 execute positioned ^-3 ^0 ^0 run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air
 execute positioned ^-2 ^-2 ^-1 run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air

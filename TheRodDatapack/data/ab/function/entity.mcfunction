@@ -85,3 +85,10 @@ scoreboard players operation @s ab.minecraft_rod_rc_time1 = @s ab.minecraft_rod_
 execute if score @s[type=player] ab.minecraft_final_rod_rc_time matches 1.. run scoreboard players remove @s ab.minecraft_final_rod_rc_time 1
 execute if score @s[type=player] ab.minecraft_final_rod_rc_time < @s ab.minecraft_final_rod_rc_time1 run function ab:rod/minecraft_final_rod/end
 scoreboard players operation @s ab.minecraft_final_rod_rc_time1 = @s ab.minecraft_final_rod_rc_time
+
+execute if score @s[type=player] ab.break_time matches 1..99 run scoreboard players remove @s ab.break_time 1
+execute if score @s[type=player] ab.break_time < @s ab.break_time1 if score @s[type=player] ab.break_time matches 1..99 run function ab:rod/minecraft_final_rod/break_end
+scoreboard players operation @s ab.break_time1 = @s ab.break_time
+
+scoreboard players enable @s ab.break_anwser
+execute if score @s ab.break_anwser matches 1 run function ab:rod/minecraft_final_rod/break
