@@ -13,4 +13,3 @@ execute if score @s ab.live_time matches 100 run data modify entity @s transform
 execute if score @s ab.live_time matches 110 run summon tnt ~ ~ ~ {fuse:-1,explosion_power:128}
 execute if score @s ab.live_time matches 115.. run kill @e[distance=0.1..100,type=#ab:non_mob]
 kill @s[scores={ab.live_time=115..}]
-say 1

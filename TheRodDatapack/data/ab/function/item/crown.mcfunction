@@ -1,4 +1,4 @@
-execute run give @s firework_rocket[item_name={\
+execute run give @s firework_star[item_name={\
                                     "text": "王冠",\
                                     "color": "#ffd900"\
                                 },\

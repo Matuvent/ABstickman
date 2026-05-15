@@ -1,0 +1,9 @@
+execute store result score @s ab.random_weapon run random value 1..5
+execute if score @s ab.random_weapon matches 1 run summon item_display ~ ~6 ~ {item:{id:"firework_star",components:{item_model:"ab:weapon/sword"}},Tags:[ab.netherite_weapon,ab.sword,ab.reg],transformation:[8,0,0,0 ,0,8,0,0 ,0,0,8,0 ,0,0,0,1],brightness:{block:7,sky:7}}
+execute if score @s ab.random_weapon matches 2 run summon item_display ~ ~7 ~ {item:{id:"firework_star",components:{item_model:"ab:weapon/bow"}},Tags:[ab.netherite_weapon,ab.bow,ab.reg],transformation:[8,0,0,0 ,0,8,0,0 ,0,0,8,0 ,0,0,0,1],brightness:{block:7,sky:7}}
+execute if score @s ab.random_weapon matches 3 run summon item_display ^ ^3 ^2 {item:{id:"firework_star",components:{item_model:"ab:weapon/mace"}},Tags:[ab.netherite_weapon,ab.mace,ab.reg],transformation:[8,0,0,0 ,0,8,0,0 ,0,0,8,0 ,0,0,0,1],brightness:{block:7,sky:7}}
+execute if score @s ab.random_weapon matches 4 run summon item_display ~ ~ ~ {item:{id:"firework_star",components:{item_model:"ab:weapon/trident"}},Tags:[ab.netherite_weapon,ab.trident,ab.reg],transformation:[8,0,0,0 ,0,8,0,0 ,0,0,8,0 ,0,0,0,1],brightness:{block:7,sky:7}}
+execute if score @s ab.random_weapon matches 5 run summon item_display ^ ^3 ^2 {item:{id:"firework_star",components:{item_model:"ab:weapon/axe"}},Tags:[ab.netherite_weapon,ab.axe,ab.reg],transformation:[8,0,0,0 ,0,8,0,0 ,0,0,8,0 ,0,0,0,1],brightness:{block:7,sky:7}}
+execute as @e[tag=ab.netherite_weapon,tag=ab.reg] positioned as @s rotated ~ 0 run tp @s ~ ~ ~ facing ^ ^ ^10
+execute as @e[tag=ab.netherite_weapon,tag=ab.reg,tag=ab.sword] rotated ~ -89 run tp @s ~ ~ ~ facing ^ ^ ^10
+tag @e[tag=ab.reg] remove ab.reg

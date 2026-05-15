@@ -1,8 +1,17 @@
 {
   "pack": {
     "description": "Resources for 晓风的ab柴资源包",
-        "pack_format": 65,
-        "min_format": 65,
+        "pack_format": 70,
+        "min_format": 70,
         "max_format": 1000
-  }
+  },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "26_1-",
+                "min_format":[76,0],
+                "max_format":[1000,0]
+            }
+        ]
+    }
 }
